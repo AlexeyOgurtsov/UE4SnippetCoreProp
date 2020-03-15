@@ -1,0 +1,12 @@
+#include "DemoActor.h"
+#include "Util/Core/LogUtilLib.h"
+
+ADemoActor::ATemplActor()
+{
+}
+
+void ADemoActor::BeginPlay()
+{
+	M_LOGFUNC();
+	Super::BeginPlay();
+}
